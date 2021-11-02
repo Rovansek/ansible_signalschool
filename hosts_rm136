@@ -1,0 +1,525 @@
+# This is a test hosts file for Room 136
+
+# Begin Individual Target Client Identification
+
+[all:vars]
+ansible_network_os=ios
+ansible_connection=network_cli
+ansible_user=instructor
+ansible_user=cisco
+ansible_ssh_pass=cisco
+#ansible_ssh_pass=NMD1n$truct0r!
+#ansible_ssh_pass=Ci$c0R0ck$NMD!
+tftp_server=10.136.136.201
+
+[instructor:vars]
+ansible_network_os=ios
+ansible_user=cisco
+ansible_ssh_pass=cisco
+#ansible_user=instructor
+#ansible_ssh_pass=NMD1n$truct0r!
+#ansible_ssh_pass=Ci$c0R0ck$NMD!
+location=instructor
+
+[all_pods:vars]
+room=rm136
+
+
+[instructor]
+instructor_01_r1 ansible_host=10.136.136.161
+instructor_01_r2 ansible_host=10.136.136.162
+instructor_01_r3 ansible_host=10.136.136.163
+instructor_01_r4 ansible_host=10.136.136.164
+instructor_01_dls1 ansible_host=10.136.136.165
+instructor_01_dls2 ansible_host=10.136.136.166
+instructor_01_als1 ansible_host=10.136.136.167
+instructor_01_als2 ansible_host=10.136.136.168
+
+
+[student1]
+student_01_r1 ansible_host=10.136.136.1
+student_01_r2 ansible_host=10.136.136.2
+student_01_r3 ansible_host=10.136.136.3
+student_01_r4 ansible_host=10.136.136.4
+student_01_dls1 ansible_host=10.136.136.5
+student_01_dls2 ansible_host=10.136.136.6
+student_01_als1 ansible_host=10.136.136.7
+student_01_als2 ansible_host=10.136.136.8
+
+[student2]
+student_02_r1 ansible_host=10.136.136.9
+student_02_r2 ansible_host=10.136.136.10
+student_02_r3 ansible_host=10.136.136.11
+student_02_r4 ansible_host=10.136.136.12
+student_02_dls1 ansible_host=10.136.136.13
+student_02_dls2 ansible_host=10.136.136.14
+student_02_als1 ansible_host=10.136.136.15
+student_02_als2 ansible_host=10.136.136.16
+
+[student3]
+student_03_r1 ansible_host=10.136.136.17
+student_03_r2 ansible_host=10.136.136.18
+student_03_r3 ansible_host=10.136.136.19
+student_03_r4 ansible_host=10.136.136.20
+student_03_dls1 ansible_host=10.136.136.21
+student_03_dls2 ansible_host=10.136.136.22
+student_03_als1 ansible_host=10.136.136.23
+student_03_als2 ansible_host=10.136.136.24
+
+[student4]
+student_04_r1 ansible_host=10.136.136.25
+student_04_r2 ansible_host=10.136.136.26
+student_04_r3 ansible_host=10.136.136.27
+student_04_r4 ansible_host=10.136.136.28
+student_04_dls1 ansible_host=10.136.136.29
+student_04_dls2 ansible_host=10.136.136.30
+student_04_als1 ansible_host=10.136.136.31
+student_04_als2 ansible_host=10.136.136.32
+
+[student5]
+student_05_r1 ansible_host=10.136.136.33
+student_05_r2 ansible_host=10.136.136.34
+student_05_r3 ansible_host=10.136.136.35
+student_05_r4 ansible_host=10.136.136.36
+student_05_dls1 ansible_host=10.136.136.37
+student_05_dls2 ansible_host=10.136.136.38
+student_05_als1 ansible_host=10.136.136.39
+student_05_als2 ansible_host=10.136.136.40
+
+[student6]
+student_06_r1 ansible_host=10.136.136.41
+student_06_r2 ansible_host=10.136.136.42
+student_06_r3 ansible_host=10.136.136.43
+student_06_r4 ansible_host=10.136.136.44
+student_06_dls1 ansible_host=10.136.136.45
+student_06_dls2 ansible_host=10.136.136.46
+student_06_als1 ansible_host=10.136.136.47
+student_06_als2 ansible_host=10.136.136.48
+
+[student7]
+student_07_r1 ansible_host=10.136.136.49
+student_07_r2 ansible_host=10.136.136.50
+student_07_r3 ansible_host=10.136.136.51
+student_07_r4 ansible_host=10.136.136.52
+student_07_dls1 ansible_host=10.136.136.53
+student_07_dls2 ansible_host=10.136.136.54
+student_07_als1 ansible_host=10.136.136.55
+student_07_als2 ansible_host=10.136.136.56
+
+[student8]
+student_08_r1 ansible_host=10.136.136.57
+student_08_r2 ansible_host=10.136.136.58
+student_08_r3 ansible_host=10.136.136.59
+student_08_r4 ansible_host=10.136.136.60
+student_08_dls1 ansible_host=10.136.136.61
+student_08_dls2 ansible_host=10.136.136.62
+student_08_als1 ansible_host=10.136.136.63
+student_08_als2 ansible_host=10.136.136.64
+
+[student9]
+student_09_r1 ansible_host=10.136.136.65
+student_09_r2 ansible_host=10.136.136.66
+student_09_r3 ansible_host=10.136.136.67
+student_09_r4 ansible_host=10.136.136.68
+student_09_dls1 ansible_host=10.136.136.69
+student_09_dls2 ansible_host=10.136.136.70
+student_09_als1 ansible_host=10.136.136.71
+student_09_als2 ansible_host=10.136.136.72
+
+[student10]
+student_10_r1 ansible_host=10.136.136.73
+student_10_r2 ansible_host=10.136.136.74
+student_10_r3 ansible_host=10.136.136.75
+student_10_r4 ansible_host=10.136.136.76
+student_10_dls1 ansible_host=10.136.136.77
+student_10_dls2 ansible_host=10.136.136.78
+student_10_als1 ansible_host=10.136.136.79
+student_10_als2 ansible_host=10.136.136.80
+
+[student11]
+student_11_r1 ansible_host=10.136.136.81
+student_11_r2 ansible_host=10.136.136.82
+student_11_r3 ansible_host=10.136.136.83
+student_11_r4 ansible_host=10.136.136.84
+student_11_dls1 ansible_host=10.136.136.85
+student_11_dls2 ansible_host=10.136.136.86
+student_11_als1 ansible_host=10.136.136.87
+student_11_als2 ansible_host=10.136.136.88
+
+[student12]
+student_12_r1 ansible_host=10.136.136.89
+student_12_r2 ansible_host=10.136.136.90
+student_12_r3 ansible_host=10.136.136.91
+student_12_r4 ansible_host=10.136.136.92
+student_12_dls1 ansible_host=10.136.136.93
+student_12_dls2 ansible_host=10.136.136.94
+student_12_als1 ansible_host=10.136.136.95
+student_12_als2 ansible_host=10.136.136.96
+
+[student13]
+student_13_r1 ansible_host=10.136.136.97
+student_13_r2 ansible_host=10.136.136.98
+student_13_r3 ansible_host=10.136.136.99
+student_13_r4 ansible_host=10.136.136.100
+student_13_dls1 ansible_host=10.136.136.101
+student_13_dls2 ansible_host=10.136.136.102
+student_13_als1 ansible_host=10.136.136.103
+student_13_als2 ansible_host=10.136.136.104
+
+[student14]
+student_14_r1 ansible_host=10.136.136.105
+student_14_r2 ansible_host=10.136.136.106
+student_14_r3 ansible_host=10.136.136.107
+student_14_r4 ansible_host=10.136.136.108
+student_14_dls1 ansible_host=10.136.136.109
+student_14_dls2 ansible_host=10.136.136.110
+student_14_als1 ansible_host=10.136.136.111
+student_14_als2 ansible_host=10.136.136.112
+
+[student15]
+student_15_r1 ansible_host=10.136.136.113
+student_15_r2 ansible_host=10.136.136.114
+student_15_r3 ansible_host=10.136.136.115
+student_15_r4 ansible_host=10.136.136.116
+student_15_dls1 ansible_host=10.136.136.117
+student_15_dls2 ansible_host=10.136.136.118
+student_15_als1 ansible_host=10.136.136.119
+student_15_als2 ansible_host=10.136.136.120
+
+[student16]
+student_16_r1 ansible_host=10.136.136.121
+student_16_r2 ansible_host=10.136.136.122
+student_16_r3 ansible_host=10.136.136.123
+student_16_r4 ansible_host=10.136.136.124
+student_16_dls1 ansible_host=10.136.136.125
+student_16_dls2 ansible_host=10.136.136.126
+student_16_als1 ansible_host=10.136.136.127
+student_16_als2 ansible_host=10.136.136.128
+
+[student17]
+student_17_r1 ansible_host=10.136.136.129
+student_17_r2 ansible_host=10.136.136.130
+student_17_r3 ansible_host=10.136.136.131
+student_17_r4 ansible_host=10.136.136.132
+student_17_dls1 ansible_host=10.136.136.133
+student_17_dls2 ansible_host=10.136.136.134
+student_17_als1 ansible_host=10.136.136.135
+student_17_als2 ansible_host=10.136.136.136
+
+[student18]
+student_18_r1 ansible_host=10.136.136.137
+student_18_r2 ansible_host=10.136.136.138
+student_18_r3 ansible_host=10.136.136.139
+student_18_r4 ansible_host=10.136.136.140
+student_18_dls1 ansible_host=10.136.136.141
+student_18_dls2 ansible_host=10.136.136.142
+student_18_als1 ansible_host=10.136.136.143
+student_18_als2 ansible_host=10.136.136.144
+
+[student19]
+student_19_r1 ansible_host=10.136.136.145
+student_19_r2 ansible_host=10.136.136.146
+student_19_r3 ansible_host=10.136.136.147
+student_19_r4 ansible_host=10.136.136.148
+student_19_dls1 ansible_host=10.136.136.149
+student_19_dls2 ansible_host=10.136.136.150
+student_19_als1 ansible_host=10.136.136.151
+student_19_als2 ansible_host=10.136.136.152
+
+[student20]
+student_20_r1 ansible_host=10.136.136.153
+student_20_r2 ansible_host=10.136.136.154
+student_20_r3 ansible_host=10.136.136.155
+student_20_r4 ansible_host=10.136.136.156
+student_20_dls1 ansible_host=10.136.136.157
+student_20_dls2 ansible_host=10.136.136.158
+student_20_als1 ansible_host=10.136.136.159
+student_20_als2 ansible_host=10.136.136.160
+
+
+# End Individual Target Client Identification
+
+# Begin Group Identification
+
+# All devices for one specific student
+[student_01_pod]
+  student_01_r[1:4]
+  student_01_dls[1:2]
+  student_01_als[1:2]
+
+[student_02_pod]
+  student_02_r[1:4]
+  student_02_dls[1:2]
+  student_02_als[1:2]
+
+[student_03_pod]
+  student_03_r[1:4]
+  student_03_dls[1:2]
+  student_03_als[1:2]
+
+[student_04_pod]
+  student_04_r[1:4]
+  student_04_dls[1:2]
+  student_04_als[1:2]
+
+[student_05_pod]
+  student_05_r[1:4]
+  student_05_dls[1:2]
+  student_05_als[1:2]
+
+[student_06_pod]
+  student_06_r[1:4]
+  student_06_dls[1:2]
+  student_06_als[1:2]
+
+[student_07_pod]
+  student_07_r[1:4]
+  student_07_dls[1:2]
+  student_07_als[1:2]
+
+[student_08_pod]
+  student_08_r[1:4]
+  student_08_dls[1:2]
+  student_08_als[1:2]
+
+[student_09_pod]
+  student_09_r[1:4]
+  student_09_dls[1:2]
+  student_09_als[1:2]
+
+[student_10_pod]
+  student_10_r[1:4]
+  student_10_dls[1:2]
+  student_10_als[1:2]
+
+[student_11_pod]
+  student_11_r[1:4]
+  student_11_dls[1:2]
+  student_11_als[1:2]
+
+[student_12_pod]
+  student_12_r[1:4]
+  student_12_dls[1:2]
+  student_12_als[1:2]
+
+[student_13_pod]
+  student_13_r[1:4]
+  student_13_dls[1:2]
+  student_13_als[1:2]
+
+[student_14_pod]
+  student_14_r[1:4]
+  student_14_dls[1:2]
+  student_14_als[1:2]
+
+[student_15_pod]
+  student_15_r[1:4]
+  student_15_dls[1:2]
+  student_15_als[1:2]
+
+[student_16_pod]
+  student_16_r[1:4]
+  student_16_dls[1:2]
+  student_16_als[1:2]
+
+[student_17_pod]
+  student_17_r[1:4]
+  student_17_dls[1:2]
+  student_17_als[1:2]
+
+[student_18_pod]
+  student_18_r[1:4]
+  student_18_dls[1:2]
+  student_18_als[1:2]
+
+[student_19_pod]
+  student_19_r[1:4]
+  student_19_dls[1:2]
+  student_19_als[1:2]
+
+[student_20_pod]
+  student_20_r[1:4]
+  student_20_dls[1:2]
+  student_20_als[1:2]
+
+[instructor_pod]
+  instructor_01_r[1:4]
+  instructor_01_dls[1:2]
+  instructor_01_als[1:2]
+
+[stack_01:children]
+  student1
+  student2
+  student3
+  student4
+
+[stack_02:children]
+  student9
+  student10
+  student11
+  student12
+
+[stack_03:children]
+  student7
+  student8
+  student13
+  student14
+
+[stack_04:children]
+  student5
+  student6
+  student15
+  student16
+
+[stack_05:children]
+  student17
+  student18
+  student19
+  student20
+
+# All classroom pods
+[all_pods:children]
+  student1
+  student2
+  student3
+  student4
+  student5
+  student6
+  student7
+  student8
+  student9
+  student10
+  student11
+  student12
+  student13
+  student14
+  student15
+  student16
+  student17
+  student18
+  student19
+  student20
+  instructor
+
+
+  
+
+# All student pod routers
+[all_student_routers]
+  student_[01:20]_r[1:4]
+
+# All instructor pod routers
+[instructor_routers]
+  instructor_01_r[1:4]
+
+# All classroom pod routers
+[all_routers:children]
+  all_student_routers
+  instructor_routers
+
+# All student R1 routers
+[all_student_r1]
+  student_[01:20]_r1 device=r1
+  instructor_01_r1 device=r1
+
+# All student R2 routers
+[all_student_r2]
+  student_[01:20]_r2 device=r2
+  instructor_01_r2 device=r2
+
+# All student R3 routers
+[all_student_r3]
+  student_[01:20]_r3 device=r3
+  instructor_01_r3 device=r3
+
+# All student R4 routers
+[all_student_r4] 
+  student_[01:20]_r4 device=r4
+  instructor_01_r4 device=r4
+
+[Routers_Layer2_Switches]
+  student_[01:20]_r1 device=r1
+  instructor_01_r1 device=r1
+  student_[01:20]_r2 device=r2
+  instructor_01_r2 device=r2
+  instructor_01_r3 device=r3
+  student_[01:20]_r4 device=r4
+  instructor_01_r4 device=r4
+  student_[01:20]_als2
+  instructor_01_als2
+  student_[01:20]_als1
+  instructor_01_als1
+
+# All switches
+[all_student_switches]
+  student_[01:20]_dls1
+  instructor_01_dls1
+  student_[01:20]_als1
+  instructor_01_als1
+  student_[01:20]_dls2
+  instructor_01_dls2
+  student_[01:20]_als2
+  instructor_01_als2
+
+# All student DLS1 switches
+[all_student_dls1]
+  student_[01:20]_dls1 device=d1
+  instructor_01_dls1 device=d1
+
+# All student DLS2 switches
+[all_student_dls2]
+  student_[01:20]_dls2 device=d2
+  instructor_01_dls2 device=d2
+
+# All student ALS1 switches
+[all_student_als1]
+  student_[01:20]_als1 device=a1
+  instructor_01_als1 device=a1
+
+# All student ALS2 switches
+[all_student_als2]
+  student_[01:20]_als2 device=a2
+  instructor_01_als2 device=a2
+
+# All student pod DLS
+[all_student_dls]
+  student_[01:20]_dls[1:2]
+  instructor_01_dls1
+  instructor_01_dls2
+
+# All student pod ALS
+[all_student_als]
+  student_[01:20]_als[1:2]
+
+# All student pod switches (DLS and ALS)
+[all_student_switches:children]
+  all_student_dls
+  all_student_als
+
+# Instructor pod DLS
+[instructor_dls]
+  instructor_01_dls[1:2]
+
+# Instructor pod ALS
+[instructor_als]
+  instructor_01_als[1:2]
+
+# All instructor pod switches (DLS and ALS)
+[instructor_switches]
+  instructor_01_dls[1:2]
+  instructor_01_als[1:2]
+
+# All classroom pod switches
+[all_switches:children]
+  all_student_dls
+  all_student_als
+  instructor_switches
+
+# Classroom management network switches
+[management_switches]
+  stack_[1:5]_sw_[1:2]
+  instructor_sw
+  classroom_sw
+
+# End Group Identification
+
