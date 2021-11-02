@@ -7,18 +7,15 @@ ansible_network_os=ios
 ansible_connection=network_cli
 ansible_user=instructor
 ansible_user=cisco
-ansible_ssh_pass=cisco
-#ansible_ssh_pass=NMD1n$truct0r!
-#ansible_ssh_pass=Ci$c0R0ck$NMD!
+ansible_ssh_pass= cisco
+#ansible_ssh_pass={{ anisble_ssh_pass }}
+#ansible_ssh_pass= {{anisble_ssh_pass_vault }}
 tftp_server=10.136.136.201
 
 [instructor:vars]
 ansible_network_os=ios
 ansible_user=cisco
 ansible_ssh_pass=cisco
-#ansible_user=instructor
-#ansible_ssh_pass=NMD1n$truct0r!
-#ansible_ssh_pass=Ci$c0R0ck$NMD!
 location=instructor
 
 [all_pods:vars]
