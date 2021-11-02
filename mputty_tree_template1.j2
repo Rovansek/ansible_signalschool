@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Servers>
+	<Putty>
+		<Node Type="0" Expanded="1">
+			<DisplayName>Main</DisplayName>
+			<Node Type="0" Expanded="1">
+				<DisplayName>STUDENTS</DisplayName>
+				<Node Type="0" Expanded="1">
+					<DisplayName>TELNET</DisplayName>
+					<Node Type="1">
+						<SavedSession>Default Settings</SavedSession>
+						<DisplayName>{{ file_name }}_R1</DisplayName>
+						<ServerName>{{ mputty_r1 }}</ServerName>
+						<PuttyConType>2</PuttyConType>
+						<Port>23</Port>
+						<UserName>{{ ansible_user }}</UserName>
+						<Password>{{ ansible_ssh_pass }}</Password>
+						<PasswordDelay>20</PasswordDelay>
+						<CLParams>{{ mputty_r1 }} -telnet -P 23</CLParams>
+						<ScriptDelay>20</ScriptDelay>
+						<Script>
+							{{ mputty_script_telnet }}
+						</Script>
+					</Node>
+					<Node Type="1">
+						<SavedSession>Default Settings</SavedSession>
+						<DisplayName>{{ file_name }}_R2</DisplayName>
+						<ServerName>{{ mputty_r2 }}</ServerName>
+						<PuttyConType>2</PuttyConType>
+						<Port>23</Port>
+						<UserName>{{ ansible_user }}</UserName>
+						<Password>{{ ansible_ssh_pass }}</Password>
+						<PasswordDelay>20</PasswordDelay>
+						<CLParams>{{ mputty_r2 }} -telnet -P 23</CLParams>
+						<ScriptDelay>20</ScriptDelay>
+						<Script>
+							{{ mputty_script_telnet }}
+						</Script>
+					</Node>
+					<Node Type="1">
+						<SavedSession>Default Settings</SavedSession>
+						<DisplayName>{{ file_name }}_R3</DisplayName>
+						<ServerName>{{ mputty_r3 }}</ServerName>
+						<PuttyConType>2</PuttyConType>
+						<Port>23</Port>
+						<UserName>{{ ansible_user }}</UserName>
+						<Password>{{ ansible_ssh_pass }}</Password>
+						<PasswordDelay>20</PasswordDelay>
+						<CLParams>{{ mputty_r3 }} -telnet -P 23</CLParams>
+						<ScriptDelay>20</ScriptDelay>
+						<Script>
+							{{ mputty_script_telnet }}
+						</Script>
+					</Node>	
+					<Node Type="1">
+						<SavedSession>Default Settings</SavedSession>
+						<DisplayName>{{ file_name }}_DLS1</DisplayName>
+						<ServerName>{{ mputty_dls1 }}</ServerName>
+						<PuttyConType>2</PuttyConType>
+						<Port>23</Port>
+						<UserName>{{ ansible_user }}</UserName>
+						<Password>{{ ansible_ssh_pass }}</Password>
+						<PasswordDelay>20</PasswordDelay>
+						<CLParams>{{ mputty_dls1 }} -telnet -P 23</CLParams>
+						<ScriptDelay>20</ScriptDelay>
+						<Script>
+							{{ mputty_script_telnet }}
+						</Script>
+					</Node>	
+					<Node Type="1">
+						<SavedSession>Default Settings</SavedSession>
+						<DisplayName>{{ file_name }}_ALS1</DisplayName>
+						<ServerName>{{ mputty_als1 }}</ServerName>
+						<PuttyConType>2</PuttyConType>
+						<Port>23</Port>
+						<UserName>{{ ansible_user }}</UserName>
+						<Password>{{ ansible_ssh_pass }}</Password>
+						<PasswordDelay>20</PasswordDelay>
+						<CLParams>{{ mputty_als1 }} -telnet -P 23</CLParams>
+						<ScriptDelay>20</ScriptDelay>
+						<Script>
+							{{ mputty_script_telnet }}
+						</Script>
+					</Node>	
+					<Node Type="1">
+						<SavedSession>Default Settings</SavedSession>
+						<DisplayName>{{ file_name }}_ALS2</DisplayName>
+						<ServerName>{{ mputty_als2 }}</ServerName>
+						<PuttyConType>2</PuttyConType>
+						<Port>23</Port>
+						<UserName>{{ ansible_user }}</UserName>
+						<Password>{{ ansible_ssh_pass }}</Password>
+						<PasswordDelay>20</PasswordDelay>
+						<CLParams>{{ mputty_als2 }} -telnet -P 23</CLParams>
+						<ScriptDelay>20</ScriptDelay>
+						<Script>
+							{{ mputty_script_telnet }}
+						</Script>
+					</Node>
+				</Node>
+				<Node Type="0" Expanded="1">
+					<DisplayName>SSH</DisplayName>
+					<Node Type="1">
+						<SavedSession>Default Settings</SavedSession>
+						<DisplayName>{{ file_name }}_R1</DisplayName>
+						<ServerName>{{ mputty_r1 }}</ServerName>
+						<PuttyConType>2</PuttyConType>
+						<Port>22</Port>
+						<UserName>{{ ansible_user }}</UserName>
+						<Password>{{ ansible_ssh_pass }}</Password>
+						<PasswordDelay>20</PasswordDelay>
+						<CLParams>{{ mputty_r1 }} -ssh -l {{ ansible_ssh_pass }}</CLParams>
+						<ScriptDelay>20</ScriptDelay>
+						<Script>
+							{{ mputty_script_ssh }}
+						</Script>
+					</Node>
+					<Node Type="1">
+						<SavedSession>Default Settings</SavedSession>
+						<DisplayName>{{ file_name }}_R2</DisplayName>
+						<ServerName>{{ mputty_r2 }}</ServerName>
+						<PuttyConType>2</PuttyConType>
+						<Port>22</Port>
+						<UserName>{{ ansible_user }}</UserName>
+						<Password>{{ ansible_ssh_pass }}</Password>
+						<PasswordDelay>20</PasswordDelay>
+						<CLParams>{{ mputty_r2 }} -ssh -l {{ ansible_ssh_pass }}</CLParams>
+						<ScriptDelay>20</ScriptDelay>
+						<Script>
+							{{ mputty_script_ssh }}
+						</Script>
+					</Node>
+					<Node Type="1">
+						<SavedSession>Default Settings</SavedSession>
+						<DisplayName>{{ file_name }}_R3</DisplayName>
+						<ServerName>{{ mputty_r3 }}</ServerName>
+						<PuttyConType>2</PuttyConType>
+						<Port>22</Port>
+						<UserName>{{ ansible_user }}</UserName>
+						<Password>{{ ansible_ssh_pass }}</Password>
+						<PasswordDelay>20</PasswordDelay>
+						<CLParams>{{ mputty_r3 }} -ssh -l {{ ansible_ssh_pass }}</CLParams>
+						<ScriptDelay>20</ScriptDelay>
+						<Script>
+							{{ mputty_script_ssh }}
+						</Script>
+					</Node>	
+					<Node Type="1">
+						<SavedSession>Default Settings</SavedSession>
+						<DisplayName>{{ file_name }}_DLS1</DisplayName>
+						<ServerName>{{ mputty_dls1 }}</ServerName>
+						<PuttyConType>2</PuttyConType>
+						<Port>22</Port>
+						<UserName>{{ ansible_user }}</UserName>
+						<Password>{{ ansible_ssh_pass }}</Password>
+						<PasswordDelay>20</PasswordDelay>
+						<CLParams>{{ mputty_dls1 }} -ssh -l {{ ansible_ssh_pass }}</CLParams>
+						<ScriptDelay>20</ScriptDelay>
+						<Script>
+							{{ mputty_script_ssh }}
+						</Script>
+					</Node>	
+					<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+						<DisplayName>{{ file_name }}_ALS1</DisplayName>
+						<ServerName>{{ mputty_als1 }}</ServerName>
+						<PuttyConType>2</PuttyConType>
+						<Port>22</Port>
+						<UserName>{{ ansible_user }}</UserName>
+						<Password>{{ ansible_ssh_pass }}</Password>
+						<PasswordDelay>20</PasswordDelay>
+						<CLParams>{{ mputty_als1 }} -ssh -l {{ ansible_ssh_pass }}</CLParams>
+						<ScriptDelay>20</ScriptDelay>
+						<Script>
+							{{ mputty_script_ssh }}
+						</Script>
+					</Node>	
+					<Node Type="1">
+						<SavedSession>Default Settings</SavedSession>
+						<DisplayName>{{ file_name }}_ALS2</DisplayName>
+						<ServerName>{{ mputty_als2 }}</ServerName>
+						<PuttyConType>2</PuttyConType>
+						<Port>22</Port>
+						<UserName>{{ ansible_user }}</UserName>
+						<Password>{{ ansible_ssh_pass }}</Password>
+						<PasswordDelay>20</PasswordDelay>
+						<CLParams>{{ mputty_als2 }} -ssh -l {{ ansible_ssh_pass }}</CLParams>
+						<ScriptDelay>20</ScriptDelay>
+						<Script>
+							{{ mputty_script_ssh }}
+						</Script>				
+				    </Node>
+				</Node>
+			</Node>
+		</Node>
+		<Node Type="1">
+			<SavedSession>Default Settings</SavedSession>
+			<DisplayName>COM1</DisplayName>
+			<ServerName>COM1</ServerName>
+			<PuttyConType>5</PuttyConType>
+			<Port>9600</Port>
+			<UserName></UserName>
+			<Password></Password>
+			<PasswordDelay>0</PasswordDelay>
+			<CLParams>com1 -serial -sercfg 9600</CLParams>
+			<ScriptDelay>0</ScriptDelay>
+		</Node>
+	</Putty>
+</Servers>
