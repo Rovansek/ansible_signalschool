@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Servers>
+	<Putty>
+		<Node Type="0" Expanded="1">
+			<DisplayName>{{ file_name }}</DisplayName>
+			<Node Type="0" Expanded="1">
+				<DisplayName>ssh</DisplayName>
+				<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+					<DisplayName>{{ device }}</DisplayName>
+					<ServerName>{{ anisble_host }}</ServerName>
+					<PuttyConType>2</PuttyConType>
+					<Port>23</Port>
+					<UserName>{{ mputty_username }}</UserName>
+					<Password>{{ mputty_password }}</Password>
+					<PasswordDelay>0</PasswordDelay>
+					<CLParams>router_1 -ssh -P 22</CLParams>
+					<ScriptDelay>0</ScriptDelay>
+				</Node>
+				<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+					<DisplayName>{{ device }}</DisplayName>
+					<ServerName>{{ anisble_host }}</ServerName>
+					<PuttyConType>2</PuttyConType>
+					<Port>23</Port>
+					<UserName>{{ mputty_username }}</UserName>
+					<Password>{{ mputty_password }}</Password>
+					<PasswordDelay>0</PasswordDelay>
+					<CLParams>router_2 -ssh -P 22</CLParams>
+					<ScriptDelay>0</ScriptDelay>
+				</Node>
+				<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+					<DisplayName>{{ device }}</DisplayName>
+					<ServerName>{{ anisble_host }}</ServerName>
+					<PuttyConType>2</PuttyConType>
+					<Port>23</Port>
+					<UserName>{{ mputty_username }}</UserName>
+					<Password>{{ mputty_password }}</Password>
+					<PasswordDelay>0</PasswordDelay>
+					<CLParams>router_3 -ssh -P 22</CLParams>
+					<ScriptDelay>0</ScriptDelay>
+				</Node>
+				<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+					<DisplayName>{{ device }}</DisplayName>
+					<ServerName>{{ anisble_host }}</ServerName>
+					<PuttyConType>2</PuttyConType>
+					<Port>23</Port>
+					<UserName>{{ mputty_username }}</UserName>
+					<Password>{{ mputty_password }}</Password>
+					<PasswordDelay>0</PasswordDelay>
+					<CLParams>dls_1 -ssh -P 22</CLParams>
+					<ScriptDelay>0</ScriptDelay>
+				</Node>
+				<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+					<DisplayName>{{ device }}</DisplayName>
+					<ServerName>{{ anisble_host }}</ServerName>
+					<PuttyConType>2</PuttyConType>
+					<Port>23</Port>
+					<UserName>{{ mputty_username }}</UserName>
+					<Password>{{ mputty_password }}</Password>
+					<PasswordDelay>0</PasswordDelay>
+					<CLParams>als_1 -ssh -P 22</CLParams>
+					<ScriptDelay>0</ScriptDelay>
+				</Node>
+				<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+					<DisplayName>{{ device }}</DisplayName>
+					<ServerName>{{ anisble_host }}</ServerName>
+					<PuttyConType>2</PuttyConType>
+					<Port>23</Port>
+					<UserName>{{ mputty_username }}</UserName>
+					<Password>{{ mputty_password }}</Password>
+					<PasswordDelay>0</PasswordDelay>
+					<CLParams>als_2 -ssh -P 22</CLParams>
+					<ScriptDelay>0</ScriptDelay>
+				</Node>
+			</Node>
+			<Node Type="0" Expanded="1">
+				<DisplayName>telnet</DisplayName>
+				<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+					<DisplayName>{{ device }}</DisplayName>
+					<ServerName>{{ anisble_host }}</ServerName>
+					<PuttyConType>2</PuttyConType>
+					<Port>23</Port>
+					<UserName>{{ mputty_username }}</UserName>
+					<Password>{{ mputty_password }}</Password>
+					<PasswordDelay>0</PasswordDelay>
+					<CLParams>als_2 -telnet -P 23</CLParams>
+					<ScriptDelay>0</ScriptDelay>
+				</Node>
+				<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+					<DisplayName>{{ device }}</DisplayName>
+					<ServerName>{{ anisble_host }}</ServerName>
+					<PuttyConType>2</PuttyConType>
+					<Port>23</Port>
+					<UserName>{{ mputty_username }}</UserName>
+					<Password>{{ mputty_password }}</Password>
+					<PasswordDelay>0</PasswordDelay>
+					<CLParams>als_2 -telnet -P 23</CLParams>
+					<ScriptDelay>0</ScriptDelay>
+				</Node>
+				<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+					<DisplayName>{{ device }}</DisplayName>
+					<ServerName>{{ anisble_host }}</ServerName>
+					<PuttyConType>2</PuttyConType>
+					<Port>23</Port>
+					<UserName>{{ mputty_username }}</UserName>
+					<Password>{{ mputty_password }}</Password>
+					<PasswordDelay>0</PasswordDelay>
+					<CLParams>als_2 -telnet -P 23</CLParams>
+					<ScriptDelay>0</ScriptDelay>
+				</Node>
+				<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+					<DisplayName>{{ device }}</DisplayName>
+					<ServerName>{{ anisble_host }}</ServerName>
+					<PuttyConType>2</PuttyConType>
+					<Port>23</Port>
+					<UserName>{{ mputty_username }}</UserName>
+					<Password>{{ mputty_password }}</Password>
+					<PasswordDelay>0</PasswordDelay>
+					<CLParams>als_2 -telnet -P 23</CLParams>
+					<ScriptDelay>0</ScriptDelay>
+				</Node>
+				<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+					<DisplayName>{{ device }}</DisplayName>
+					<ServerName>{{ anisble_host }}</ServerName>
+					<PuttyConType>2</PuttyConType>
+					<Port>23</Port>
+					<UserName>{{ mputty_username }}</UserName>
+					<Password>{{ mputty_password }}</Password>
+					<PasswordDelay>0</PasswordDelay>
+					<CLParams>als_2 -telnet -P 23</CLParams>
+					<ScriptDelay>0</ScriptDelay>
+				</Node>
+				<Node Type="1">
+					<SavedSession>Default Settings</SavedSession>
+					<DisplayName>{{ device }}</DisplayName>
+					<ServerName>{{ anisble_host }}</ServerName>
+					<PuttyConType>2</PuttyConType>
+					<Port>23</Port>
+					<UserName>{{ mputty_username }}</UserName>
+					<Password>{{ mputty_password }}</Password>
+					<PasswordDelay>0</PasswordDelay>
+					<CLParams>als_2 -telnet -P 23</CLParams>
+					<ScriptDelay>0</ScriptDelay>
+				</Node>
+			</Node>
+		</Node>
+		<Node Type="1">
+			<SavedSession>Default Settings</SavedSession>
+			<DisplayName>COM 1</DisplayName>
+			<ServerName>COM 1</ServerName>
+			<PuttyConType>5</PuttyConType>
+			<Port>9500</Port>
+			<UserName></UserName>
+			<Password>dEOdZtE1nIY=</Password>
+			<PasswordDelay>0</PasswordDelay>
+			<CLParams>"COM 1" -serial -sercfg 9500</CLParams>
+			<ScriptDelay>0</ScriptDelay>
+		</Node>
+	</Putty>
+</Servers>
